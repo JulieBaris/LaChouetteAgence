@@ -1,3 +1,2 @@
 # LaChouetteAgence_optimisation
-# LaChouetteAgence_optimisation
-# Optimisation_LaChouetteAgence
+Mission : optimiser le site de la Chouette Agence en termes d'accesssibilité et de référencement naturel
