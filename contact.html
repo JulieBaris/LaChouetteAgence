@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="La Chouette Agence, entreprise, agence, web, design, SEO, référencement, stratégie, illustration, France, Lyon">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+		<link rel="shortcut icon" type="image/ico" href="./img/favicon.ico">
+		<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="./style.css">
+		<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
+		<link rel="stylesheet" type="text/css" href="./css/et-line.css">
+		<script src="./js/jquery-2.1.0_min.js"></script>
+		<script src="./js/bootstrap_min.js"></script>
+		<script src="./js/blocs_min.js"></script>
+		<script src="./js/jqBootstrapValidation_min.js"></script>
+		<script src="./js/formHandler_min.js"></script>
+		<title>La Chouette Agence - Contact</title>
+		<!-- Analytics -->
+		<!-- 
+		<meta name="" content="" />
+		balise à remplir par vos soins pour le suivi google search console -->
+		<!-- Analytics END -->
+	</head>
+	<body>
+		<!-- Principal conteneur -->
+		<header class="page-container">
+			<!-- bloc-0 -->
+			<div class="bloc bgc-white l-bloc" id="bloc-0">
+				<div class="container bloc-sm">
+					<nav class="navbar row">
+						<div class="navbar-header">
+							<a class="navbar-brand" href="index.html" tabindex="0"><img src="img/la-chouette-agence.png" alt="La Chouette Agence" height="50" title="La Chouette Agence" aria-label="Accueil La Chouette Agence"/></a>
+							<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1" title="Menu" aria-label="Navigation menu" tabindex="0">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</div>
+						<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
+							<ul class="site-navigation nav navbar-nav">
+								<li><a href="index.html" title="Accueil" aria-label="Accès page d'Accueil" tabindex="0">Accueil</a></li>
+								<li><a href="Contact.html" title="Contact" aria-label="Accès page de Contact" tabindex="0">Contact</a></li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<!-- bloc-0 END -->
+		<main>
+			<!-- bloc-6 -->
+			<section>
+				<div class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
+					<div class="container bloc-lg">
+						<div class="row">
+							<div class="col-sm-12">
+								<h1 class="text-center hero-bloc-text tc-white">Parlons web design !</h1>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- bloc-6 END -->
+			<!-- bloc-7 -->
+			<section class="bloc bgc-white l-bloc">
+				<div class="container bloc-lg">
+					<div class="row">
+						<h2 title="Formulaire de contact" aria-label="Formulaire" tabindex="0">Formulaire de contact</h2>
+						<p class="text-center mg-lg tight-width-whitespace">
+							Nous sommes ravis que vous souhaitiez collaborer avec notre agence.
+							<br>
+							Parlez-nous de votre projet en complétant tous les champs du formulaire ci-dessous.
+						</p>
+					</div>
+				</div>
+				<!-- bloc-7 -->
+				<div class="container bloc-lg">
+					<div class="row">
+						<form id="form_1" method="post" novalidate>
+							<div class="form-group">
+								<p>
+									Les champs marqués par * sont obligatoires
+								</p>
+								<fieldset title="Champs Contact">
+									<legend>
+										Contact
+									</legend>
+									<label for="name" aria-label="Nom" title="Nom" tabindex="0">
+										Nom 
+										<em><abbr title="obligatoire">*</abbr></em>
+									</label>
+									<input id="name" type="text" class="form-control" required title="écrire ici" tabindex="0" placeholder="ex : Mme Martin" aria-required="true" aria-invalid="true">
+									<label for="email" aria-label="Adresse email" title="Adresse email" tabindex="0">
+										Adresse email 
+										<em><abbr title="obligatoire">*</abbr></em>
+									</label>
+									<input id="email" class="form-control" type="email" required title="écrire ici" tabindex="0" placeholder="ex : nom.prenom@exemple.com" aria-required="true" aria-invalid="true">
+								</fieldset>
+							</div>
+							<div class="form-group">
+								<fieldset title="Parlez-nous de vous">
+									<legend>
+										Parlez-nous de vous
+									</legend>
+									<label for="message" aria-label="Réseaux" title="Réseaux" tabindex="0">
+										Comment nous avez-vous connu ? 
+										<em><abbr title="obligatoire">*</abbr></em>
+									</label>
+									<input class="form-control" name="message" type="text" required id="input_504" title="écrire ici" tabindex="0" placeholder="Evénements, Site internet, Réseaux sociaux ..." aria-required="true" aria-invalid="true">
+									<label for="message" aria-label="Votre projet" title="Votre projet" tabindex="0">
+										Parlez-nous de votre projet (ajoutez autant de détails que nécessaire) 
+										<em><abbr title="obligatoire">*</abbr></em>
+									</label>
+									<textarea id="message" class="form-control" rows="4" cols="50" required title="écrire ici" tabindex="0" placeholder="Donnez-nous le plus de détails possible sur votre besoin et votre projet."></textarea>
+								</fieldset>
+							</div>
+							<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit" title="Envoyer votre message" tabindex="0">Envoyer</button>
+						</form>
+					</div>
+				</div>
+			</section>
+			<!-- bloc-7 END -->
+			<!-- ScrollToTop Button -->
+			<a href="./contact.html" class="bloc-button btn btn-d scrollToTop white" onclick="scrollToTarget('1')" title="Revenir en haut de page" tabindex="0"><span class="fa fa-chevron-up"></span></a>
+			<!-- ScrollToTop Button END-->
+		</main>
+		<!-- Footer - bloc-8 -->
+		<!-- Footer - bloc-8 -->
+		<footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
+			<div class="container bloc-sm">
+				<div class="row">
+					<div class="col-sm-12">
+						<p class="text-center white">
+							La chouette agence - Agence web basée à Lyon.
+							<br>
+							2 place Sathonay 69001 Lyon
+							<br>
+							Ouvert de 9h à 18h, du lundi au vendredi
+						</p>
+						<a class="white" href="mailto:contact@lachouetteagence.com" title="adresse mail" aria-label="Adresse mail" tabindex="0">contact@lachouetteagence.com</a>
+						<div class="row row-no-gutters social">
+							<div class="col-sm-3">
+								<div class="text-center">
+									<a class="social" href="https://twitter.com/home?lang=fr" title="twitter" aria-label="Twitter" role="button" tabindex="0">
+										<span class="fa fa-twitter icon-md"></span>
+										<p class="text-center white">
+											Twitter
+										</p>
+									</a>
+								</div>
+							</div>
+							<div class="col-sm-3">
+								<div class="text-center">
+									<a class="social" href="https://www.facebook.com/" title="facebook" aria-label="Facebook" role="button" tabindex="0">
+										<span class="fa fa-facebook icon-md"></span>
+										<p class="text-center white">
+											Facebook
+										</p>
+									</a>
+								</div>
+							</div>
+							<div class="col-sm-3">
+								<div class="text-center">
+									<a class="social" href="https://dribbble.com/" title="dribble" aria-label="Dribble" role="button" tabindex="0">
+										<span class="fa fa-dribbble icon-md"></span>
+										<p class="text-center white">
+											Dribble
+										</p>
+									</a>
+								</div>
+							</div>
+							<div class="col-sm-3">
+								<div class="text-center">
+									<a class="social" href="https://www.instagram.com/?hl=fr" title="instagram" aria-label="Instagram" role="button" tabindex="0">
+										<span class="fa fa-instagram icon-md"></span>
+										<p class="text-center white">
+											Instagram
+										</p>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- Footer - bloc-8 END -->
+		<!-- Principal conteneur END -->
+	</body>
+</html>
+
